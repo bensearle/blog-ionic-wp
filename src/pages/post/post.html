@@ -1,0 +1,13 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ post.title.rendered }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h2 [innerHTML]="post.title.rendered"></h2>
+  <div [innerHTML]="post.content.rendered"></div>
+</ion-content>
